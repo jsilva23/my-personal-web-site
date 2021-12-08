@@ -7,7 +7,7 @@ const Contact = () => {
       <h1>Hire Me</h1>
 
       <p>
-        I am available for freelance work. Connect with me via phone:{' '}
+        I am available for work. Connect with me via phone:{' '}
         <strong>+244 939 606 016</strong> or email:{' '}
         <strong>admin@example.com</strong>
       </p>

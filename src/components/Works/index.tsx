@@ -22,7 +22,7 @@ const Works = () => {
               year
             </p>
           </figcaption>
-          <a href='#'></a>
+          <a href='https://jsilva23.github.io/' target='_blank'></a>
         </figure>
 
         <figure className='snip1527'>
@@ -31,12 +31,9 @@ const Works = () => {
           </div>
           <figcaption>
             <h3>The world on github</h3>
-            <p>
-              A project built in order to know how much time is left for the new
-              year
-            </p>
+            <p>Search developers from anywhere in the world on GitHub</p>
           </figcaption>
-          <a href='#'></a>
+          <a href='https://open-world-devs.herokuapp.com/' target='_blank'></a>
         </figure>
 
         <figure className='snip1527'>
@@ -46,11 +43,11 @@ const Works = () => {
           <figcaption>
             <h3>Password generator</h3>
             <p>
-              A project built in order to know how much time is left for the new
-              year
+              Use your online password generator to create a secure and random
+              password.
             </p>
           </figcaption>
-          <a href='#'></a>
+          <a href='https://gerador-de-senha.surge.sh/' target='_blank'></a>
         </figure>
 
         <figure className='snip1527'>
@@ -64,7 +61,7 @@ const Works = () => {
               year
             </p>
           </figcaption>
-          <a href='#'></a>
+          <a href='https://my-trips-henna.vercel.app/' target='_blank'></a>
         </figure>
       </section>
     </S.Works>
