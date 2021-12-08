@@ -5,7 +5,7 @@ interface Props {
 }
 
 export const Aside = Styled.aside`
-  background-color: #0b132b;
+  background-color: #090f23;
   height: 100vh;
   width: 20vw;
   position: fixed;

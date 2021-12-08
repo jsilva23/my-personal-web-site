@@ -3,13 +3,14 @@ import Styled from 'styled-components';
 export const Works = Styled.section`
   overflow: hidden;
   background: #fcfcfc;
+  padding: 50px 0;
 
   h1 {
     font-size: 5rem;
     font-weight: 600;
     text-align: center;
     font-family: 'Bangers', cursive;  
-    color: #090f23;
+    color: #5bc0be;
     margin-bottom: 50px;
   }
 
@@ -27,7 +28,7 @@ export const Works = Styled.section`
   font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   margin: 30px;
-  max-width: 510px;
+  max-width: 450px;
   min-width: 250px;
   overflow: hidden;
   position: relative;

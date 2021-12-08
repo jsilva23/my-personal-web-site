@@ -14,7 +14,7 @@ export const About = Styled.section`
     font-weight: 600;
     text-align: center;
     font-family: 'Bangers', cursive;  
-    color: #090f23;
+    color: #5bc0be;
     margin-bottom: 20px;
   }
 
