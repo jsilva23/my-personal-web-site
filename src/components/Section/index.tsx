@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../About";
 import Header from "../Header";
+import Works from "../Works";
 import { Container } from "./style";
 
 const Section = () => {
@@ -9,6 +10,7 @@ const Section = () => {
     <Container>
       <Header />
       <About />
+      <Works />
     </Container>
   );
 }

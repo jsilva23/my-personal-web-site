@@ -5,7 +5,7 @@ interface Props {
 }
 
 export const Aside = Styled.aside`
-  background-color: #001524;
+  background-color: #0b132b;
   height: 100vh;
   width: 20vw;
   position: fixed;
@@ -26,17 +26,17 @@ export const Aside = Styled.aside`
       height: 150px;
       border-radius: 50%;
 
-      border: 2px solid #798992;
+      border: 2px solid #3a506b;
     }
 
     .name {
       margin: 20px 0;
-      color: #f2fdff;
+      color: #4b8895;
       font-size: 2.6rem;
     }
 
     .title {
-      color: #798992;
+      color: #3a506b;
       font-size: 1.8rem;
     }
   }
@@ -44,7 +44,7 @@ export const Aside = Styled.aside`
   .skills-container {
     padding: 0 20px;
     h2 {
-      color: #f2fdff;
+      color: #4b8895;
       font-size: 2.4rem;
     }
   }
@@ -61,7 +61,7 @@ export const Aside = Styled.aside`
     align-items: center;
     
     a {
-      color: #3d4f5b;
+      color: #3a506b;
       text-decoration: none;
       transition: color .2s;
     }
@@ -107,18 +107,18 @@ export const Skill = Styled.div<Props>`
   margin: 5px 0;
 
   .skill-name {
-    color: #798992;
+    color: #3a506b;
     font-size: 2rem;
     margin-bottom: 5px;
   }
 
   .percentage {
-    background: #798992;
+    background: #3a506b;
     width: 100%;
     height: 10px;
 
     div {
-      background: #73212e;
+      background: linear-gradient(90deg, #8a2563 0%, #f72585 100%, #f72585 100%);
       height: 100%;
       width: ${p => p.percentage}%;
     }
