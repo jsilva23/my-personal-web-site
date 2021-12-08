@@ -7,9 +7,11 @@ interface Props {
 export const Aside = Styled.aside`
   background-color: #001524;
   height: 100vh;
-  width: 350px;
+  width: 20vw;
   position: fixed;
-
+  top: 0;
+  left: 0;
+  
   .profile {
     display: flex;
     flex-direction: column;

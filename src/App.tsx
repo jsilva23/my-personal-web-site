@@ -1,19 +1,17 @@
 import { Fragment } from 'react';
-import GlobalStyle from './styles/GlobalStyle';
+import Section from './components/Section';
 import SideBar from './components/SideBar';
+import GlobalStyle from './styles/GlobalStyle';
+import { Main } from './styles';
 
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <SideBar />
-      <h1>heeey</h1>
-      <h1>heeey</h1>
-      <h1>heeey</h1>
-      <h1>heeey</h1>
-      <h1>heeey</h1>
-      <h1>heeey</h1>
-    
+      <Main>
+        <SideBar />
+        <Section />
+      </Main>
     </Fragment>
   );
 }

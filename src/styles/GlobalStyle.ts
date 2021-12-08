@@ -1,6 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import img from '../assets/pexels-negative-space-160107.jpg';
-
  
 const GlobalStyle = createGlobalStyle`
   * {
@@ -14,9 +12,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-image: url(${img});
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Nunito', sans-serif;
   }
 
